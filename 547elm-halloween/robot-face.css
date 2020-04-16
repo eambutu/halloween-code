@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+}
+
+.robot-eye {
+  margin: 50px;
+}
+.robot-eye:nth-child(2) {
+  transform: scaleX(-1);
+}
+
+.eye {
+  height: 400;
+  width: 400;
+}
+
+.eye-line {
+  height: 9%;
+  width: 100%;
+  fill: rgba(0, 128, 255, 1);
+}
+
+.anger .eye-line {
+  fill: rgba(255, 0, 0, 1);
+}
+
+button {
+  height: 100px;
+  flex: 1;
+  font-size: 40px;
+}

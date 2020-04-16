@@ -1,0 +1,28 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div id="log"></div>
+  <div class="container-1" id="main-container">
+    <div style="display: flex; align-items: center;">
+      <video width="1280" height="720"></video>
+      <!--<img src="instructions.png" style="width: 700px; height: 500px"/>-->
+      <div style="display: flex; flex-direction: column">
+        <button style="width: 100px; height: 70px" onclick="sendExpression('close')">Close</button>
+        <button style="width: 100px; height: 70px" onclick="sendExpression('open')">Open</button>
+        <button style="width: 100px; height: 70px" onclick="sendExpression('blink')">Blink</button>
+        <button style="width: 100px; height: 70px" onclick="sendExpression('angry')">Angry</button>
+        <button style="width: 100px; height: 70px" onclick="sendExpression('happy')">Happy</button>
+        <button style="width: 100px; height: 70px" onclick="sendExpression('wink')">Wink</button>
+      </div>
+    </div>
+    <button style="width: 200px; height: 100px" onclick="initializeVideoStreams()">Click to start streams</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src='simplepeer.min.js'></script>
+  <script src='tuna.min.js'></script>
+  <script src='jungle.js'></script>
+  <script src='client.js'></script>
+</body>
+</html>

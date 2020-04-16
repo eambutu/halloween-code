@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="robot-face.css">
+  	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+  </head>
+  <body>
+    <div id="log" style="color: white"></div>
+		<div class="container-1">
+      <div class="container-2">
+        <svg
+          height="400px" width="400px" viewBox="0 0 400 400"
+          xmlns="http://www.w3.org/2000/svg" version="1.1"
+          class="robot-eye">
+          <mask id="round-eyes-1" class="round-eyes">
+            <path id="round-eyes-mask-1" fill="white"
+              d='M0,180 h400 a0,0 0 0 1 0,0 v40 a0,0 0 0 1 0,0 h-400 a0,0 0 0 1 0,0 v-40 a0,0 0 0 1 0,0 z'
+            ></path>
+          </mask>
+          <rect class="lid-upper"></rect>
+          <g class="eye" mask=url(#round-eyes-1)>
+            <rect class="eye-line"></rect>
+            <rect class="eye-line" y="40" ></rect>
+            <rect class="eye-line" y="80"></rect>
+            <rect class="eye-line" y="120"></rect>
+            <rect class="eye-line" y="160"></rect>
+            <rect class="eye-line" y="200"></rect>
+            <rect class="eye-line" y="240"></rect>
+            <rect class="eye-line" y="280"></rect>
+            <rect class="eye-line" y="320"></rect>
+            <rect class="eye-line" y="360"></rect>
+          </g>
+        </svg>
+        <svg
+          height="400px" width="400px" viewBox="0 0 400 400"
+          xmlns="http://www.w3.org/2000/svg" version="1.1"
+          class="robot-eye">
+          <mask id="round-eyes-2" class="round-eyes">
+            <path id="round-eyes-mask-2" fill="white"
+              d='M0,180 h400 a0,0 0 0 1 0,0 v40 a0,0 0 0 1 0,0 h-400 a0,0 0 0 1 0,0 v-40 a0,0 0 0 1 0,0 z'
+            ></path>
+          </mask>
+          <rect class="lid-upper"></rect>
+          <g class="eye" mask=url(#round-eyes-2)>
+            <rect class="eye-line"></rect>
+            <rect class="eye-line" y="40" ></rect>
+            <rect class="eye-line" y="80"></rect>
+            <rect class="eye-line" y="120"></rect>
+            <rect class="eye-line" y="160"></rect>
+            <rect class="eye-line" y="200"></rect>
+            <rect class="eye-line" y="240"></rect>
+            <rect class="eye-line" y="280"></rect>
+            <rect class="eye-line" y="320"></rect>
+            <rect class="eye-line" y="360"></rect>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <video muted />
+		<script src="robot-eyes.js"></script>
+    <script src='simplepeer.min.js'></script>
+    <script src='tuna.min.js'></script>
+    <script src='jungle.js'></script>
+    <script src="client.js"></script>
+  </body>
+<html>
+
+<!--
+		<rect x=80 y=0 height=400 width=240 fill="white"></rect>
+		<rect x=0 y=80 height=240 width=400 fill="white"></rect>
+		<circle cx=80 cy=80 r=80 fill="white"/>
+		<circle cx=320 cy=80 r=80 fill="white"/>
+		<circle cx=80 cy=320 r=80 fill="white"/>
+		<circle cx=320 cy=320 r=80 fill="white"/>
+		<rect x=0 y=0></rect>
+		<rect></rect>
+	-->

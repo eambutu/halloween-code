@@ -1,0 +1,11 @@
+<svg
+  height="400px" width="400px" viewBox="0 0 400 400"
+  xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <g class="eye">
+    <rect class="eye-line"></rect>
+    <rect class="eye-line"></rect>
+    <rect class="eye-line"></rect>
+    <rect class="eye-line"></rect>
+    <rect class="eye-line"></rect>
+  </g>
+</svg>
